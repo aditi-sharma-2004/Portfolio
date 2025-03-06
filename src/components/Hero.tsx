@@ -11,7 +11,10 @@ function Hero() {
       text: "I'm",
     },
     {
-      text: " a full-stack ",
+      text: " a ",
+    },
+    {
+      text: " full-stack ",
     },
     {
       text: "developer",

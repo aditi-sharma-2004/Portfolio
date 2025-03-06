@@ -92,7 +92,7 @@ function Navbar() {
                   : "opacity-75 hover:opacity-100"
               } text-gray-800 dark:text-gray-200 px-3 py-2 transition-opacity`}>
             
-              Contact Us
+              Contact Me
             
           </Link>
           <DropdownMenu>
