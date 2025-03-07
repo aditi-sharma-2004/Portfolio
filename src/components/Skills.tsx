@@ -131,7 +131,7 @@ const Icons = {
   ),
   openai: (props: IconProps) => (
     <div className="dark:text-black font-bold text-2xl antialiased">
-      skills
+        Tech
     </div>
   ),
   googleDrive: (props: IconProps) => (
