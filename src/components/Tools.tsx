@@ -3,9 +3,24 @@ import React from "react";
 
 const tools = [
   {
-    image: "/images/redux.png", // Ensure these images exist in the public/images directory
-    title: "Redux",
-    description: "State management library for JavaScript apps",
+    image: "/images/java.png",
+    title: "Java",
+    description: "Object-oriented programming language used for backend development",
+  },
+  {
+    image: "/images/python.png",
+    title: "Python",
+    description: "High-level programming language for AI, ML, and automation",
+  },
+  {
+    image: "/images/c++.png",
+    title: "C++",
+    description: "Powerful programming language for system and application development",
+  },
+  {
+    image: "/images/mysql.png",
+    title: "MySQL",
+    description: "Relational database management system",
   },
   {
     image: "/images/git.png",
@@ -13,35 +28,9 @@ const tools = [
     description: "Version control and collaboration platform",
   },
   {
-    image: "/images/postman.png",
-    title: "Postman",
-    description:
-      "API development environment for building, testing, and documenting APIs",
-  },
-  {
-    image: "/images/firebase.png",
-    title: "Firebase",
-    description: "Platform for building web and mobile applications",
-  },
-  {
-    image: "/images/ffmpeg.png",
-    title: "FFmpeg",
-    description: "Multimedia framework to decode, encode, transcode, etc.",
-  },
-  {
-    image: "/images/docker.png",
-    title: "Docker",
-    description: "Containerization platform for building, shipping, and running applications",
-  },
-  {
-    image: "/images/tailwind.png",
-    title: "Tailwind",
-    description: "Utility-first CSS framework for rapid UI development",
-  },
-  {
-    image: "/images/appwrite.png",
-    title: "Appwrite",
-    description: "Open-source backend server for web and mobile developers",
+    image: "/images/opencv.png",
+    title: "OpenCV",
+    description: "Computer vision library for image processing",
   },
   // Add more tools as needed
 ];
