@@ -3,7 +3,7 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 
 function AboutMe() {
   const words =
-    "Full-stack web developer experienced in utilizing technologies like ReactJS , ExpressJS , and JavaScript to create efficient and dynamic web applications. Proficient in database management with PostgreSQL and well-versed in Tailwind CSS for sleek UI designs. Additionally skilled in C++ programming. Committed to delivering high-quality, user-centric solutions while continuously exploring and integrating cutting-edge technologies";
+  "Hi, I'm Aditi Sharma, a full-stack developer, machine learning enthusiast, and problem solver. I have experience working with Python, Java, C++, and JavaScript, specializing in backend development, AI, and database management.";
   return (
     <div className="flex flex-col gap-6 justify-center items-center p-4 dark:bg-black">
       <div>
