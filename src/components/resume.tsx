@@ -9,8 +9,8 @@ const Resume = () => {
       <div className="max-w-4xl mt-20 mx-auto p-6 bg-white dark:bg-gray-900 shadow-md rounded-lg transition duration-500 ease-in-out">
         <div className="flex justify-end mb-4">
           <a
-            href="/Resume-Aditi.pdf"
-            download="Resume-Aditi.pdf"
+            href="/Aditi-Resume.pdf"
+            download="Aditi-Resume.pdf"
             className="px-3 py-1 text-sm rounded-full bg-gray-200 dark:bg-gray-700 dark:text-gray-300 focus:outline-none transition duration-500 ease-in-out"
           >
             Download PDF
