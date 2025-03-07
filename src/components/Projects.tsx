@@ -3,16 +3,16 @@ import Link from 'next/link';
 
 const projects = [
   {
-    name: "Shivalik Study Circle",
-    description: "A freelance website for a coaching institute. Built with Next.js, Tailwind CSS, have features like blog, announcements and notes sharing, and contact form.",
+    name: "Leave Management System",
+    description: "A Java-based web application to streamline leave requests and approvals, featuring authentication, role-based access, and MySQL integration.",
     status: "Completed",
-    imageUrl: "/images/academy app1.png",
+    imageUrl: "/images/lms.png",
   },
   {
-    name: "OpinionZ",
-    description: "A social media platform for sharing opinions anonymously and you can fact check opinions with AI. Built with React, Node.js, Express, and MongoDB.",
-    status: "In Progress",
-    imageUrl: "/images/opinionZ-1.png",
+    name: "Voice-Based Route Finder",
+    description: "A Python project utilizing speech recognition and graph algorithms to compute the shortest route between cities.",
+    status: "Completed",
+    imageUrl: "/images/path.png",
   },
 ];
 
