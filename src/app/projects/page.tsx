@@ -7,18 +7,21 @@ const projects = [
     description: "A Java-based web application to streamline leave requests and approvals, featuring authentication, role-based access, and MySQL integration.",
     status: "Ongoing",
     imageUrl: "/images/lms.png",
+    githubUrl: 'https://github.com/aditi-sharma-2004/LMS',
   },
   {
     name: "Voice-Based Route Finder",
     description: "A Python project utilizing speech recognition and graph algorithms to compute the shortest route between cities.",
     status: "Completed",
     imageUrl: "/images/path.png",
+    githubUrl: 'https://github.com/aditi-sharma-2004/Shortest-path-routing-using-speech-recognition',
   },
   {
     name: "AI-Powered Snake Game",
     description: "A classic Snake game built with Python and Pygame, implementing an AI-driven hint system to assist players.",
     status: "Completed",
     imageUrl: "/images/snake.png",
+    githubUrl: 'https://github.com/aditi-sharma-2004/Smart-Snake-game',
   },
 ];
 
@@ -42,11 +45,15 @@ const ProjectCard = ({ project }: any) => {
           <span className={`inline-block mr-2 text-sm text-gray-500 dark:text-gray-400`}>
             Status: <span className={`${project.status === "Completed" ? "text-green-500 dark:text-green-500" : "text-yellow-500 dark:text-yellow-400"}`}>{project.status}</span>
           </span>
-          <Link href={`/projects/${project.name}`}>
-            <button className="text-xs text-indigo-600 hover:text-indigo-700 font-bold focus:outline-none">
-              Show Details
-            </button>
-          </Link>
+          {/* Show Details Button (Redirect to GitHub) */}
+          <a
+            href={project.githubUrl} // Using the dynamic GitHub URL
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-indigo-600 hover:text-indigo-700 font-bold focus:outline-none"
+          >
+            Show Details
+          </a>
         </div>
       </div>
     </div>
